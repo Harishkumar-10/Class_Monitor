@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_screen">
+    <sys_ux_applicability_m2m_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability display_value="Public">41e055f0a1458210ac102eb76fd6b384</applicability>
+        <order>0</order>
+        <screen display_value="Login Default">0de055f0fb458210a7e65e45c8a6f06b</screen>
+        <sys_class_name>sys_ux_applicability_m2m_screen</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-03-17 11:19:22</sys_created_on>
+        <sys_id>cde055f0a945821058828c2b7d33076b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Class Attendance Mointoring " source="x_568580_class_a_0">5c8796eb473002109d76edf1d16d4309</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Class Attendance Mointoring ">5c8796eb473002109d76edf1d16d4309</sys_scope>
+        <sys_update_name>sys_ux_applicability_m2m_screen_cde055f0a945821058828c2b7d33076b</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-03-17 11:19:22</sys_updated_on>
+    </sys_ux_applicability_m2m_screen>
+</record_update>

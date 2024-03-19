@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="update_synch=true" db_object_id="e1ceff24478942109d76edf1d16d43dc" extends="dl_matcher" label="Department and Subject lookup" max_length="40" name="x_568580_class_a_0_department_and_subject_lookup" type="collection">
+        <element label="Batch" max_length="32" name="batch" reference="sys_user_group" type="reference"/>
+        <element label="Department" max_length="32" name="department" reference="cmn_department" type="reference"/>
+        <element label="Subject Name" max_length="40" name="subject_name" type="string"/>
+        <index name="index">
+            <element name="batch"/>
+        </index>
+        <index name="index2">
+            <element name="department"/>
+        </index>
+    </element>
+</database>

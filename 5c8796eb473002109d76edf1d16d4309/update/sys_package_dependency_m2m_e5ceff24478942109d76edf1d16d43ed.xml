@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Data Lookup and Record Matching Support" source="com.glide.data_lookup">7f19b0b17df1311076daf29f52070d0e</dependency>
+        <min_version>1.0.6</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-17 05:20:33</sys_created_on>
+        <sys_id>e5ceff24478942109d76edf1d16d43ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Class Attendance Mointoring " source="x_568580_class_a_0">5c8796eb473002109d76edf1d16d4309</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-17 05:20:33</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

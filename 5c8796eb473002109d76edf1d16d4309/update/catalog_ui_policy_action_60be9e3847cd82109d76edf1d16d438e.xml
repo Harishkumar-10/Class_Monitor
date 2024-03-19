@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Schedule Class">3c5a0a6447c902109d76edf1d16d4379</catalog_item>
+        <catalog_variable>IO:f44dcae847c902109d76edf1d16d436a</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-17 16:59:28</sys_created_on>
+        <sys_id>60be9e3847cd82109d76edf1d16d438e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>session</sys_name>
+        <sys_package display_value="Class Attendance Mointoring " source="x_568580_class_a_0">5c8796eb473002109d76edf1d16d4309</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Class Attendance Mointoring ">5c8796eb473002109d76edf1d16d4309</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_60be9e3847cd82109d76edf1d16d438e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-17 16:59:28</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Display Section after scheduled date is filled">b35e923847cd82109d76edf1d16d43df</ui_policy>
+        <variable>session</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

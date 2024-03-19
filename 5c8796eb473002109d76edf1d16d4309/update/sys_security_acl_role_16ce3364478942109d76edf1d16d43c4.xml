@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-17 05:20:37</sys_created_on>
+        <sys_id>16ce3364478942109d76edf1d16d43c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_568580_class_a_0_department_and_subject_lookup.x_568580_class_a_0.student</sys_name>
+        <sys_package display_value="Class Attendance Mointoring " source="x_568580_class_a_0">5c8796eb473002109d76edf1d16d4309</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Class Attendance Mointoring ">5c8796eb473002109d76edf1d16d4309</sys_scope>
+        <sys_security_acl display_value="x_568580_class_a_0_department_and_subject_lookup">96ce3364478942109d76edf1d16d4305</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_16ce3364478942109d76edf1d16d43c4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-17 05:20:37</sys_updated_on>
+        <sys_user_role display_value="x_568580_class_a_0.student" name="x_568580_class_a_0.student">a08796eb473002109d76edf1d16d432a</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

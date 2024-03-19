@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="DELETE">
+        <sc_cat_item display_value="Schedule Class">3c5a0a6447c902109d76edf1d16d4379</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-17 05:41:56</sys_created_on>
+        <sys_id>e6a388fc478942109d76edf1d16d4333</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Schedule Class.Teacher Only</sys_name>
+        <sys_package display_value="Class Attendance Mointoring " source="x_568580_class_a_0">5c8796eb473002109d76edf1d16d4309</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Class Attendance Mointoring ">5c8796eb473002109d76edf1d16d4309</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_e6a388fc478942109d76edf1d16d4333</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-17 05:41:56</sys_updated_on>
+        <user_criteria display_value="Teacher Only">66677933475c02109d76edf1d16d437b</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Class Attendance Mointoring ">5c8796eb473002109d76edf1d16d4309</application>
+        <file_path/>
+        <instance_id>01d622971ba27554c84543f4bd4bcb95</instance_id>
+        <instance_name>dev220627</instance_name>
+        <name>sc_cat_item_user_criteria_mtom_e6a388fc478942109d76edf1d16d4333</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom"><sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="Schedule Class">3c5a0a6447c902109d76edf1d16d4379</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-17 05:41:56</sys_created_on><sys_id>e6a388fc478942109d76edf1d16d4333</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Schedule Class.Teacher Only</sys_name><sys_package display_value="Class Attendance Mointoring " source="x_568580_class_a_0">5c8796eb473002109d76edf1d16d4309</sys_package><sys_policy/><sys_scope display_value="Class Attendance Mointoring ">5c8796eb473002109d76edf1d16d4309</sys_scope><sys_update_name>sc_cat_item_user_criteria_mtom_e6a388fc478942109d76edf1d16d4333</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-17 05:41:56</sys_updated_on><user_criteria display_value="Teacher Only">66677933475c02109d76edf1d16d437b</user_criteria></sc_cat_item_user_criteria_mtom></record_update>]]></payload>
+        <payload_hash>1906313660</payload_hash>
+        <record_name>Schedule Class.Teacher Only</record_name>
+        <reverted_from/>
+        <source>908796eb473002109d76edf1d16d4325</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-17 05:41:56</sys_created_on>
+        <sys_id>6ea388fc478942109d76edf1d16d4337</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e4aee51860000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-17 05:41:56</sys_updated_on>
+        <type>Catalog Item Available for</type>
+        <update_guid>eea388fcfd894210ea44bc990575eb36</update_guid>
+        <update_guid_history>eea388fcfd894210ea44bc990575eb36:1906313660</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Schedule Class.Teacher Only">98f3c03047c942109d76edf1d16d4384</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-17 05:43:08</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_mtom">sc_cat_item_user_criteria_mtom</sys_db_object>
+        <sys_id>88765ef322534a91ae326450686eccc9</sys_id>
+        <sys_metadata>e6a388fc478942109d76edf1d16d4333</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Schedule Class.Teacher Only</sys_name>
+        <sys_package display_value="Class Attendance Mointoring " source="x_568580_class_a_0">5c8796eb473002109d76edf1d16d4309</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Class Attendance Mointoring ">5c8796eb473002109d76edf1d16d4309</sys_scope>
+        <sys_scope_delete display_value="">74811e2f626f4b269af15b01c217e5b1</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_e6a388fc478942109d76edf1d16d4333</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_mtom_e6a388fc478942109d76edf1d16d4333">6ea388fc478942109d76edf1d16d4337</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-17 05:43:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

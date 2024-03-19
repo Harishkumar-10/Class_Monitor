@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_568580_class_a_0_scheduled_classes</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_568580_class_a_0_scheduled_classes">scheduled_dateISNOTEMPTY^EQ<item endquery="false" field="scheduled_date" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Populate schedule date/Time</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    // Add your code here
+    var message = "Subject: " + current.subject + " by " + current.getDisplayValue('subject_teacher');
+    var schDate = current.scheduled_date;
+    var startDate;
+    var endDate;
+    var ses = current.session;
+    if (ses == 1) {
+        startDate = schDate + " 09:00:00";
+        endDate = schDate + " 11:00:00";
+    } else if (ses == 2) {
+        startDate = schDate + " 11:00:00";
+        endDate = schDate + " 13:00:00";
+
+    } else if (ses == 3) {
+        startDate = schDate + " 14:00:00";
+        endDate = schDate + " 16:00:00";
+
+    } else if (ses == 4) {
+        startDate = schDate + " 16:00:00";
+        endDate = schDate + " 18:00:00";
+
+    }
+    var gsdt = new GlideDateTime(startDate);
+    var gedt = new GlideDateTime(endDate);
+
+    current.setValue('class_start_date', gsdt);
+    current.setValue('class_end_date', gedt);
+    current.setValue('title', message);
+
+
+
+
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-19 18:33:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a7940ded478102109d76edf1d16d4369</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Populate schedule date/Time</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Class Attendance Mointoring " source="x_568580_class_a_0">5c8796eb473002109d76edf1d16d4309</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Class Attendance Mointoring ">5c8796eb473002109d76edf1d16d4309</sys_scope>
+        <sys_update_name>sys_script_a7940ded478102109d76edf1d16d4369</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-19 19:03:58</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=a7940ded478102109d76edf1d16d4369"/>
+</record_update>

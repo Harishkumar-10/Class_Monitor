@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="Department and Subject lookup" language="en" table="x_568580_class_a_0_department_and_subject_lookup">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Department and Subject lookup</label>
+            <language>en</language>
+            <name>x_568580_class_a_0_department_and_subject_lookup</name>
+            <plural>Department and Subject lookups</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-17 05:20:33</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Department and Subject lookup</sys_name>
+            <sys_package display_value="Class Attendance Mointoring " source="x_568580_class_a_0">5c8796eb473002109d76edf1d16d4309</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Class Attendance Mointoring ">5c8796eb473002109d76edf1d16d4309</sys_scope>
+            <sys_update_name>sys_documentation_x_568580_class_a_0_department_and_subject_lookup__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-17 05:20:33</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

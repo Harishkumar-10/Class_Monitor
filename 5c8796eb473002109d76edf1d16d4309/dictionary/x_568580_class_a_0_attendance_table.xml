@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="9c550ea8478902109d76edf1d16d431f" label="Attendance table" max_length="40" name="x_568580_class_a_0_attendance_table" type="collection">
+        <element label="Class Scheduled" max_length="32" name="class_scheduled" reference="x_568580_class_a_0_scheduled_classes" type="reference"/>
+        <element label="Leave Request" max_length="32" name="leave_request" reference="sc_req_item" type="reference"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Present" sequence="0" value="present"/>
+                <element inactive_on_update="false" label="Absent" sequence="1" value="absent"/>
+            </choice>
+        </element>
+        <element label="Student" max_length="32" name="student" reference="sys_user" type="reference"/>
+        <element choice="1" label="Sub status" max_length="40" name="sub_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Informed Leave" sequence="0" value="informed_leave"/>
+                <element inactive_on_update="false" label="Uninformed Leave" sequence="1" value="uninformed_leave"/>
+                <element inactive_on_update="false" label="Late" sequence="2" value="late"/>
+                <element inactive_on_update="false" label="Class Cancelled" sequence="3" value="Class Cancelled"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="class_scheduled"/>
+        </index>
+        <index name="index2">
+            <element name="leave_request"/>
+        </index>
+        <index name="index3">
+            <element name="student"/>
+        </index>
+    </element>
+</database>

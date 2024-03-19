@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="DELETE">
+        <macroponent_config>{ }</macroponent_config>
+        <screen display_value="Landingpage">06531970474582109d76edf1d16d43b5</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-17 11:30:03</sys_created_on>
+        <sys_id>86539d38474582109d76edf1d16d43c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Class Attendance Mointoring " source="x_568580_class_a_0">5c8796eb473002109d76edf1d16d4309</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Class Attendance Mointoring ">5c8796eb473002109d76edf1d16d4309</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_86539d38474582109d76edf1d16d43c7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-17 11:30:03</sys_updated_on>
+    </sys_uib_screen_test_values>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Class Attendance Mointoring ">5c8796eb473002109d76edf1d16d4309</application>
+        <file_path/>
+        <instance_id>01d622971ba27554c84543f4bd4bcb95</instance_id>
+        <instance_name>dev220627</instance_name>
+        <name>sys_uib_screen_test_values_86539d38474582109d76edf1d16d43c7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values"><sys_uib_screen_test_values action="INSERT_OR_UPDATE"><macroponent_config>{ }</macroponent_config><screen display_value="Landingpage">06531970474582109d76edf1d16d43b5</screen><sys_class_name>sys_uib_screen_test_values</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-17 11:30:03</sys_created_on><sys_id>86539d38474582109d76edf1d16d43c7</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Class Attendance Mointoring " source="x_568580_class_a_0">5c8796eb473002109d76edf1d16d4309</sys_package><sys_policy/><sys_scope display_value="Class Attendance Mointoring ">5c8796eb473002109d76edf1d16d4309</sys_scope><sys_update_name>sys_uib_screen_test_values_86539d38474582109d76edf1d16d43c7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-17 11:30:03</sys_updated_on></sys_uib_screen_test_values></record_update>]]></payload>
+        <payload_hash>-85843014</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>908796eb473002109d76edf1d16d4325</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-17 11:30:03</sys_created_on>
+        <sys_id>ca539d38474582109d76edf1d16d43c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e4c2d08c50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-17 11:30:03</sys_updated_on>
+        <type>UIB Screen Test Values</type>
+        <update_guid>02539d3883458210b3a056cdfba633c9</update_guid>
+        <update_guid_history>02539d3883458210b3a056cdfba633c9:-85843014</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-17 11:34:20</sys_created_on>
+        <sys_db_object display_value="" name="sys_uib_screen_test_values">sys_uib_screen_test_values</sys_db_object>
+        <sys_id>220c19f86504444588c52c2c98a908f9</sys_id>
+        <sys_metadata>86539d38474582109d76edf1d16d43c7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Class Attendance Mointoring " source="x_568580_class_a_0">5c8796eb473002109d76edf1d16d4309</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Class Attendance Mointoring ">5c8796eb473002109d76edf1d16d4309</sys_scope>
+        <sys_scope_delete display_value="">74811e2f626f4b269af15b01c217e5b1</sys_scope_delete>
+        <sys_update_name>sys_uib_screen_test_values_86539d38474582109d76edf1d16d43c7</sys_update_name>
+        <sys_update_version display_value="sys_uib_screen_test_values_86539d38474582109d76edf1d16d43c7">ca539d38474582109d76edf1d16d43c9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-17 11:34:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
