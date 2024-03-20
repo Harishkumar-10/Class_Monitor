@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Copy of Create Incident">206cfd75474102109d76edf1d16d4357</sc_cat_item>
+        <sc_catalog display_value="Class Management">2b8bf36c474942109d76edf1d16d4309</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 17:03:17</sys_created_on>
+        <sys_id>ec6c35b5474102109d76edf1d16d43ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Class Management.Copy of Create Incident</sys_name>
+        <sys_package display_value="Class Attendance Mointoring " source="x_568580_class_a_0">5c8796eb473002109d76edf1d16d4309</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Class Attendance Mointoring ">5c8796eb473002109d76edf1d16d4309</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_ec6c35b5474102109d76edf1d16d43ba</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 17:03:17</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Class Attendance Mointoring ">5c8796eb473002109d76edf1d16d4309</application>
+        <file_path/>
+        <instance_id>01d622971ba27554c84543f4bd4bcb95</instance_id>
+        <instance_name>dev220627</instance_name>
+        <name>sc_cat_item_catalog_ec6c35b5474102109d76edf1d16d43ba</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Copy of Create Incident">206cfd75474102109d76edf1d16d4357</sc_cat_item><sc_catalog display_value="Class Management">2b8bf36c474942109d76edf1d16d4309</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-20 17:03:17</sys_created_on><sys_id>ec6c35b5474102109d76edf1d16d43ba</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Class Management.Copy of Create Incident</sys_name><sys_package display_value="Class Attendance Mointoring " source="x_568580_class_a_0">5c8796eb473002109d76edf1d16d4309</sys_package><sys_policy/><sys_scope display_value="Class Attendance Mointoring ">5c8796eb473002109d76edf1d16d4309</sys_scope><sys_update_name>sc_cat_item_catalog_ec6c35b5474102109d76edf1d16d43ba</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-20 17:03:17</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>225167101</payload_hash>
+        <record_name>Class Management.Copy of Create Incident</record_name>
+        <reverted_from/>
+        <source>4d64d969470502109d76edf1d16d43a4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 17:03:17</sys_created_on>
+        <sys_id>f06c35b5474102109d76edf1d16d43c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e5cd133390000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 17:03:17</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>386c35b5b8410210c8251c28ab4f7fc0</update_guid>
+        <update_guid_history>386c35b5b8410210c8251c28ab4f7fc0:225167101</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Class Management.Copy of Create Incident">b6d28ef1478102109d76edf1d16d43f2</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 17:31:33</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>5b599d6b31d44c0485862820943aee10</sys_id>
+        <sys_metadata>ec6c35b5474102109d76edf1d16d43ba</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Class Management.Copy of Create Incident</sys_name>
+        <sys_package display_value="Class Attendance Mointoring " source="x_568580_class_a_0">5c8796eb473002109d76edf1d16d4309</sys_package>
+        <sys_parent display_value="">206cfd75474102109d76edf1d16d4357</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Class Attendance Mointoring ">5c8796eb473002109d76edf1d16d4309</sys_scope>
+        <sys_scope_delete display_value="">74811e2f626f4b269af15b01c217e5b1</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_ec6c35b5474102109d76edf1d16d43ba</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_ec6c35b5474102109d76edf1d16d43ba">f06c35b5474102109d76edf1d16d43c1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 17:31:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

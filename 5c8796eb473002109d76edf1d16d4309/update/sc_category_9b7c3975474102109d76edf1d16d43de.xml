@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category">
+    <sc_category action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Your Admin Support gateway. Report issues and submit requests.&#13;
+		</description>
+        <entitlement_script/>
+        <header_icon/>
+        <homepage_image/>
+        <homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer>
+        <icon/>
+        <image/>
+        <location/>
+        <mobile_hide_description>false</mobile_hide_description>
+        <mobile_picture/>
+        <mobile_subcategory_render_type>list</mobile_subcategory_render_type>
+        <module/>
+        <order>0</order>
+        <parent/>
+        <roles/>
+        <sc_catalog display_value="Class Management">2b8bf36c474942109d76edf1d16d4309</sc_catalog>
+        <sys_class_name>sc_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 17:03:44</sys_created_on>
+        <sys_id>9b7c3975474102109d76edf1d16d43de</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Can We Help You?</sys_name>
+        <sys_package display_value="Class Attendance Mointoring " source="x_568580_class_a_0">5c8796eb473002109d76edf1d16d4309</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Class Attendance Mointoring ">5c8796eb473002109d76edf1d16d4309</sys_scope>
+        <sys_update_name>sc_category_9b7c3975474102109d76edf1d16d43de</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 17:40:04</sys_updated_on>
+        <title>Can We Help You?</title>
+    </sc_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=9b7c3975474102109d76edf1d16d43de"/>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes/>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>homepage_image</file_name>
+        <hash/>
+        <image_height/>
+        <image_width/>
+        <size_bytes>1414</size_bytes>
+        <size_compressed>1437</size_compressed>
+        <state>available</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 17:03:44</sys_created_on>
+        <sys_id>177c3975474102109d76edf1d16d43e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 17:03:44</sys_updated_on>
+        <table_name>ZZ_YYsc_category</table_name>
+        <table_sys_id>9b7c3975474102109d76edf1d16d43de</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="homepage_image" sys_id="177c3975474102109d76edf1d16d43e2">177c3975474102109d76edf1d16d43e2</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 17:03:44</sys_created_on>
+        <sys_id>177c3975474102109d76edf1d16d43e4</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>AYYFefqJUE5HDQoaCgAAAA1JSERSAAAASQAAAEgIBgAAALov2HkAAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAAFKElEQVR42uycT0hUQRzHZxfBqNCFQIOQlKKglTIPBV3UTgqB68lOpR3qJOkh8BIqXYSgFE91aO2WJ1cS8qS7lyBBsjChf7hiHbKiXSko6NDvt87KKr4/M/Obee/Z+8Kw6dru28/+5vdvZh5joUKFChUqUIr46WLuZhIxeGjgP+ZuNaUW/1tIAANBNMNoghHj/7ZTlo8MDASXBoC5PQcJwCTgoR1GgoNRVRrGFIxx3cAiBqZPL4yrMGo1vtU4jFFd0zOiGc5NIqsRsa5ugJX1NSQ+re5rthwnjcAYopqGEWLrSXKf4wehNXVQTMEoYbSa8xEgxi35JVxbr+eWBBeB4XvSsO8RduxgUd2eWBIA6uIW5GdAqC641qRxS+KAkixYkrKoiCSghoBYEAmoiAQgBLMSUEBFYS41rtMnzQUcECrJZ4MrlQla0WBJlU6i8rIDrOpgHassr2IV+6q2fv/n7y+2/muFbfxeZ3kYOkDBOEs63QBQLZ9mJKqvvsjih1tYTWW9498iqKUvc+zNl1lqYJiVD1JCmnPR0nBUTayetZ3o2WY1Inq+OgHjCSWoOqdaL+oSUDMFoAtHL7PO03ekAW2+Rie70nivME2JNEDluAcoAOEHpBD6MIRNBKqLuxJ5SCVdRGkdP3SeDFApqES834g1RVxAwijQpRK9rp97YPutr+WX2MKn6cIjRjVUJUxJdOotx67Z/t+Zt2Pg1GdVIeW4b8rJTjelyh6jmN2HxIg18eo2+/D9xRYgVL4Q0WbZw/kbbP2ndVBtPHKJwpJidp8z6mBFyv3oeHWL5XMI5hlYgp0Q3NTy8DaAO6ddpUIgKFG7rE9qovAdlqn7x0euXgOtCoFaqYIGUrMsJCWHjTmR3TQTSQzzv79av4+LhNTNlOOpjvuyZMdCoZTWckts4vXtbR+kJhYvPL7/Ni8YAPbbZuREws+bFqndSGo0BFX6yFblIiQGAEsr+0MG6YzodCMtZFVSiLaTPZYREh361hegrlrRLkDMD4Aws7Zz/gufpynfskG5VWJSCKYVCmE7QJg/LXx+Svm2MVFITV4BwqiYONVvm4TiNJt5N2aZP1HKd5aEDroVfJBTgolR0y4Tp1Q0BKQGyegGqoIPcgCEYEwDcppueZMXgtW+G0AmfJAvfRJakV1pgSWMUyFMpLTodEubgoRNOZVOgZc+KWsu5MctnzMMKCMEia8g5Lz8Bks7lYa0KJMCpL2E5IGTTstAyngJaf1n1qgVWfW4naJbim3uf9Qq7FDuVoJs6FnettJjqyfcrJaQrNwGQJYruWUuCWuHhM18XJvDfjX6ImyBEPaJHH2R3VK3q70AYE0/mMb+ktWKLNGamhvhLt2UaoE7qvMKsW+0m09yWpgkUtYOkAikEZ3JpVVjrbh3SbP6SFolPDQO7UFnnXayIhFLYnyPoZbkEjNrq2RSs/N2tcE0KvGi5KUKOuidORECSi0Pa51mbg/qyOy+xf0Bk9RXXFxbKzpqDVv/tiXJAKjD7R/L7uPGLLyXBVNYxLaInGBSORGgtG/JI+U4IKHWtNIBnICBkgKkDClAoKQByUS33VKDbp/nUIu8eJVe/aE8OYlRL8n8daRiBOD0qb4I6Rlcvqdp0getlSzPg1IUL6brNLeXh5WHuAWRJb267wuADn3AECwsm4aoj7trh7TDsvAGCtQHmdEZY1NQ610mjN6rhPssBIXbehqY+G66HC+yM7y0yJq4bs/vesN3vNptYs0WhykooUKFCuVn/RNgAHcb+OiRYE4JAAAAAElFTkSuQmCCgbzlNYYFAAA=
+		</data>
+        <length>1904</length>
+        <position>1</position>
+        <sys_attachment display_value="homepage_image" sys_id="177c3975474102109d76edf1d16d43e2">177c3975474102109d76edf1d16d43e2</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 17:03:44</sys_created_on>
+        <sys_id>9b7c3975474102109d76edf1d16d43e4</sys_id>
+    </sys_attachment_doc>
+</record_update>
