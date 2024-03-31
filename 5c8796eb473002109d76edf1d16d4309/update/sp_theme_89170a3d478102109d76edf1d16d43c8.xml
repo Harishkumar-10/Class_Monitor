@@ -560,21 +560,21 @@ body .panel-default &gt; .panel-heading, div#widget-tabs-2 &gt; .panel-heading {
 }</css_variables>
         <footer/>
         <footer_fixed>false</footer_fixed>
-        <header display_value="HRMadrid Header">a8d107b473131300c629e1e54cf6a703</header>
+        <header display_value="Portal Polaris Header">3552f974845a1110f87767389929c604</header>
         <name>CDE Theme</name>
         <navbar_fixed>false</navbar_fixed>
         <sys_class_name>sp_theme</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-20 17:50:01</sys_created_on>
         <sys_id>89170a3d478102109d76edf1d16d43c8</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>CDE Theme</sys_name>
         <sys_package display_value="Class Attendance Mointoring " source="x_568580_class_a_0">5c8796eb473002109d76edf1d16d4309</sys_package>
         <sys_policy/>
         <sys_scope display_value="Class Attendance Mointoring ">5c8796eb473002109d76edf1d16d4309</sys_scope>
         <sys_update_name>sp_theme_89170a3d478102109d76edf1d16d43c8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-20 18:04:57</sys_updated_on>
+        <sys_updated_on>2024-03-23 17:56:27</sys_updated_on>
         <turn_off_scss_compilation>false</turn_off_scss_compilation>
     </sp_theme>
 </record_update>

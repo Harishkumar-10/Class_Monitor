@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="3">5c47e4c2474102109d76edf1d16d4380</sp_column>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 05:30:55</sys_created_on>
+        <sys_id>4e472006474102109d76edf1d16d4334</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Schedule Class</sys_name>
+        <sys_package display_value="Class Attendance Mointoring " source="x_568580_class_a_0">5c8796eb473002109d76edf1d16d4309</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Class Attendance Mointoring ">5c8796eb473002109d76edf1d16d4309</sys_scope>
+        <sys_update_name>sp_instance_4e472006474102109d76edf1d16d4334</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 05:30:55</sys_updated_on>
+        <title>Schedule Class</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=4e472006474102109d76edf1d16d4334"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Class Attendance Mointoring ">5c8796eb473002109d76edf1d16d4309</application>
+        <file_path/>
+        <instance_id>01d622971ba27554c84543f4bd4bcb95</instance_id>
+        <instance_name>dev220627</instance_name>
+        <name>sp_instance_4e472006474102109d76edf1d16d4334</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="3">5c47e4c2474102109d76edf1d16d4380</sp_column><sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-21 05:30:55</sys_created_on><sys_id>4e472006474102109d76edf1d16d4334</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Schedule Class</sys_name><sys_package display_value="Class Attendance Mointoring " source="x_568580_class_a_0">5c8796eb473002109d76edf1d16d4309</sys_package><sys_policy/><sys_scope display_value="Class Attendance Mointoring ">5c8796eb473002109d76edf1d16d4309</sys_scope><sys_update_name>sp_instance_4e472006474102109d76edf1d16d4334</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-21 05:30:55</sys_updated_on><title>Schedule Class</title><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=4e472006474102109d76edf1d16d4334"/></record_update>]]></payload>
+        <payload_hash>206055604</payload_hash>
+        <record_name>Schedule Class</record_name>
+        <reverted_from/>
+        <source>4d64d969470502109d76edf1d16d43a4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 05:30:55</sys_created_on>
+        <sys_id>1c872006474102109d76edf1d16d433c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e5f7dae3e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 05:30:55</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>50872006144102107699668c621d603c</update_guid>
+        <update_guid_history>50872006144102107699668c621d603c:206055604</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Schedule Class">d3d71782478102109d76edf1d16d4392</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 18:21:26</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>136cc06dad7e441d9ef45e3d07aeb0e1</sys_id>
+        <sys_metadata>4e472006474102109d76edf1d16d4334</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Schedule Class</sys_name>
+        <sys_package display_value="Class Attendance Mointoring " source="x_568580_class_a_0">5c8796eb473002109d76edf1d16d4309</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Class Attendance Mointoring ">5c8796eb473002109d76edf1d16d4309</sys_scope>
+        <sys_scope_delete display_value="">74811e2f626f4b269af15b01c217e5b1</sys_scope_delete>
+        <sys_update_name>sp_instance_4e472006474102109d76edf1d16d4334</sys_update_name>
+        <sys_update_version display_value="sp_instance_4e472006474102109d76edf1d16d4334">1c872006474102109d76edf1d16d433c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 18:21:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

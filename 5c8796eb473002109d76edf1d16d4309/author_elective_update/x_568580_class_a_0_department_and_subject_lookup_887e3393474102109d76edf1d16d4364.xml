@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_568580_class_a_0_department_and_subject_lookup">
+    <x_568580_class_a_0_department_and_subject_lookup action="DELETE">
+        <active>true</active>
+        <batch/>
+        <department display_value="MCA">8b12e694477002109d76edf1d16d43b9</department>
+        <order>100</order>
+        <subject_name>DMC6001 Software Project management</subject_name>
+        <sys_class_name>x_568580_class_a_0_department_and_subject_lookup</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-25 18:22:22</sys_created_on>
+        <sys_id>887e3393474102109d76edf1d16d4364</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>100</sys_name>
+        <sys_package display_value="Class Attendance Mointoring " source="x_568580_class_a_0">5c8796eb473002109d76edf1d16d4309</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Class Attendance Mointoring ">5c8796eb473002109d76edf1d16d4309</sys_scope>
+        <sys_update_name>x_568580_class_a_0_department_and_subject_lookup_887e3393474102109d76edf1d16d4364</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-25 18:22:22</sys_updated_on>
+    </x_568580_class_a_0_department_and_subject_lookup>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Class Attendance Mointoring ">5c8796eb473002109d76edf1d16d4309</application>
+        <file_path/>
+        <instance_id>01d622971ba27554c84543f4bd4bcb95</instance_id>
+        <instance_name>dev220627</instance_name>
+        <name>x_568580_class_a_0_department_and_subject_lookup_887e3393474102109d76edf1d16d4364</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_568580_class_a_0_department_and_subject_lookup"><x_568580_class_a_0_department_and_subject_lookup action="INSERT_OR_UPDATE"><active>true</active><batch/><department display_value="MCA">8b12e694477002109d76edf1d16d43b9</department><order>100</order><subject_name>DMC6001 Software Project management</subject_name><sys_class_name>x_568580_class_a_0_department_and_subject_lookup</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-25 18:22:22</sys_created_on><sys_id>887e3393474102109d76edf1d16d4364</sys_id><sys_mod_count>0</sys_mod_count><sys_name>100</sys_name><sys_package display_value="Class Attendance Mointoring " source="x_568580_class_a_0">5c8796eb473002109d76edf1d16d4309</sys_package><sys_policy/><sys_scope display_value="Class Attendance Mointoring ">5c8796eb473002109d76edf1d16d4309</sys_scope><sys_update_name>x_568580_class_a_0_department_and_subject_lookup_887e3393474102109d76edf1d16d4364</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-25 18:22:22</sys_updated_on></x_568580_class_a_0_department_and_subject_lookup></record_update>]]></payload>
+        <payload_hash>-1567254531</payload_hash>
+        <record_name>100</record_name>
+        <reverted_from/>
+        <source>4d64d969470502109d76edf1d16d43a4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-25 18:22:22</sys_created_on>
+        <sys_id>087efb57474102109d76edf1d16d437a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e76d965ea0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-25 18:22:22</sys_updated_on>
+        <type>Department and Subject lookup</type>
+        <update_guid>4c7efb570841021051138811be1fdd79</update_guid>
+        <update_guid_history>4c7efb570841021051138811be1fdd79:-1567254531</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="100">47eefb57474102109d76edf1d16d437f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-25 18:24:29</sys_created_on>
+        <sys_db_object display_value="" name="x_568580_class_a_0_department_and_subject_lookup">x_568580_class_a_0_department_and_subject_lookup</sys_db_object>
+        <sys_id>2d3d792fd98a41d983d95217a2dec7d9</sys_id>
+        <sys_metadata>887e3393474102109d76edf1d16d4364</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>100</sys_name>
+        <sys_package display_value="Class Attendance Mointoring " source="x_568580_class_a_0">5c8796eb473002109d76edf1d16d4309</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Class Attendance Mointoring ">5c8796eb473002109d76edf1d16d4309</sys_scope>
+        <sys_scope_delete display_value="">74811e2f626f4b269af15b01c217e5b1</sys_scope_delete>
+        <sys_update_name>x_568580_class_a_0_department_and_subject_lookup_887e3393474102109d76edf1d16d4364</sys_update_name>
+        <sys_update_version display_value="x_568580_class_a_0_department_and_subject_lookup_887e3393474102109d76edf1d16d4364">087efb57474102109d76edf1d16d437a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-25 18:24:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

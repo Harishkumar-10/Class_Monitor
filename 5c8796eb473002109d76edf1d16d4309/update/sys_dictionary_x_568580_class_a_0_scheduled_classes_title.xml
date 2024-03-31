@@ -4,8 +4,13 @@
         <array>false</array>
         <attributes/>
         <audit>false</audit>
-        <calculation/>
-        <choice>0</choice>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return current.subject+' by '+current.getDisplayValue('subject_teacher');  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
         <choice_field/>
         <choice_table/>
         <column_label>Title</column_label>
@@ -29,7 +34,7 @@
         <function_field>false</function_field>
         <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
-        <max_length>40</max_length>
+        <max_length>260</max_length>
         <name>x_568580_class_a_0_scheduled_classes</name>
         <next_element/>
         <primary>false</primary>
@@ -53,14 +58,14 @@
         <sys_scope display_value="Class Attendance Mointoring ">5c8796eb473002109d76edf1d16d4309</sys_scope>
         <sys_update_name>sys_dictionary_x_568580_class_a_0_scheduled_classes_title</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-19 18:54:56</sys_updated_on>
+        <sys_updated_on>2024-03-31 15:08:59</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
+        <virtual>true</virtual>
         <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>

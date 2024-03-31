@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="pa_dashboards_permissions">
+    <pa_dashboards_permissions action="INSERT_OR_UPDATE">
+        <dashboard display_value="Class Schedule">add8c1e547c102109d76edf1d16d43d7</dashboard>
+        <delete>false</delete>
+        <group display_value="MCA Teachers" name="MCA Teachers">3e58317d470102109d76edf1d16d436e</group>
+        <identity>3e58317d470102109d76edf1d16d436e</identity>
+        <read>true</read>
+        <role/>
+        <sys_class_name>pa_dashboards_permissions</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-22 09:33:32</sys_created_on>
+        <sys_id>f398229a478502109d76edf1d16d430e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>3e58317d470102109d76edf1d16d436e</sys_name>
+        <sys_package display_value="Class Attendance Mointoring " source="x_568580_class_a_0">5c8796eb473002109d76edf1d16d4309</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Class Attendance Mointoring ">5c8796eb473002109d76edf1d16d4309</sys_scope>
+        <sys_update_name>pa_dashboards_permissions_f398229a478502109d76edf1d16d430e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-22 09:33:32</sys_updated_on>
+        <type>2</type>
+        <user/>
+        <write>false</write>
+    </pa_dashboards_permissions>
+</record_update>

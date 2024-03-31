@@ -3,19 +3,19 @@
         <active>true</active>
         <batch/>
         <department display_value="MCA">8b12e694477002109d76edf1d16d43b9</department>
-        <order>100</order>
-        <subject_name>AI and Machine learning</subject_name>
+        <order>300</order>
+        <subject_name>DMC6010 Web Desgin</subject_name>
         <sys_class_name>x_568580_class_a_0_department_and_subject_lookup</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-17 05:33:28</sys_created_on>
         <sys_id>3ab14cb8478942109d76edf1d16d4381</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>100</sys_name>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>300</sys_name>
         <sys_package display_value="Class Attendance Mointoring " source="x_568580_class_a_0">5c8796eb473002109d76edf1d16d4309</sys_package>
         <sys_policy/>
         <sys_scope display_value="Class Attendance Mointoring ">5c8796eb473002109d76edf1d16d4309</sys_scope>
         <sys_update_name>x_568580_class_a_0_department_and_subject_lookup_3ab14cb8478942109d76edf1d16d4381</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-17 05:33:49</sys_updated_on>
+        <sys_updated_on>2024-03-25 18:32:47</sys_updated_on>
     </x_568580_class_a_0_department_and_subject_lookup>
 </record_update>

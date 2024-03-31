@@ -25,7 +25,7 @@
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
-        <function_definition>glidefunction:concat(subject,subject_teacher)</function_definition>
+        <function_definition>glidefunction:concat(title)</function_definition>
         <function_field>true</function_field>
         <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
@@ -53,7 +53,7 @@
         <sys_scope display_value="Class Attendance Mointoring ">5c8796eb473002109d76edf1d16d4309</sys_scope>
         <sys_update_name>sys_dictionary_x_568580_class_a_0_scheduled_classes_rpt_displayname</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-19 18:52:42</sys_updated_on>
+        <sys_updated_on>2024-03-31 15:11:22</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

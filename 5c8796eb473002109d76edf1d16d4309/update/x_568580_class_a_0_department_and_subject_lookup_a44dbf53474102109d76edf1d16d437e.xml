@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_568580_class_a_0_department_and_subject_lookup">
+    <x_568580_class_a_0_department_and_subject_lookup action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <batch/>
+        <department display_value="MCA">8b12e694477002109d76edf1d16d43b9</department>
+        <order>100</order>
+        <subject_name>DMC6101 Matrices, Probability and Statistics</subject_name>
+        <sys_class_name>x_568580_class_a_0_department_and_subject_lookup</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-25 18:17:13</sys_created_on>
+        <sys_id>a44dbf53474102109d76edf1d16d437e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>100</sys_name>
+        <sys_package display_value="Class Attendance Mointoring " source="x_568580_class_a_0">5c8796eb473002109d76edf1d16d4309</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Class Attendance Mointoring ">5c8796eb473002109d76edf1d16d4309</sys_scope>
+        <sys_update_name>x_568580_class_a_0_department_and_subject_lookup_a44dbf53474102109d76edf1d16d437e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-25 18:17:13</sys_updated_on>
+    </x_568580_class_a_0_department_and_subject_lookup>
+</record_update>
