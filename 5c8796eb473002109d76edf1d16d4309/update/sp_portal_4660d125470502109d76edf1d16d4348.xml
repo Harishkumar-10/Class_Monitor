@@ -25,15 +25,15 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-19 19:13:18</sys_created_on>
         <sys_id>4660d125470502109d76edf1d16d4348</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Class Monitor</sys_name>
         <sys_package display_value="Class Attendance Mointoring " source="x_568580_class_a_0">5c8796eb473002109d76edf1d16d4309</sys_package>
         <sys_policy/>
         <sys_scope display_value="Class Attendance Mointoring ">5c8796eb473002109d76edf1d16d4309</sys_scope>
         <sys_update_name>sp_portal_4660d125470502109d76edf1d16d4348</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-20 18:18:11</sys_updated_on>
-        <theme display_value="CDE Theme">89170a3d478102109d76edf1d16d43c8</theme>
+        <sys_updated_on>2024-04-02 18:06:55</sys_updated_on>
+        <theme display_value="La Jolla">a7a6e78277002300a6e592718a10617a</theme>
         <title>Class Monitor</title>
         <ts_index_group/>
         <url_suffix>snclass</url_suffix>

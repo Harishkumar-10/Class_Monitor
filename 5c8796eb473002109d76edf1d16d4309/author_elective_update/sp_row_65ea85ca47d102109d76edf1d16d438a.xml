@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row">
+    <sp_row action="DELETE">
+        <class_name/>
+        <order>3</order>
+        <sp_column/>
+        <sp_container display_value="Class Room - Container 3">227571b5470102109d76edf1d16d4305</sp_container>
+        <sys_class_name>sp_row</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-02 18:21:15</sys_created_on>
+        <sys_id>65ea85ca47d102109d76edf1d16d438a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>3</sys_name>
+        <sys_package display_value="Class Attendance Mointoring " source="x_568580_class_a_0">5c8796eb473002109d76edf1d16d4309</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Class Attendance Mointoring ">5c8796eb473002109d76edf1d16d4309</sys_scope>
+        <sys_update_name>sp_row_65ea85ca47d102109d76edf1d16d438a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-03 06:00:15</sys_updated_on>
+    </sp_row>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Class Attendance Mointoring ">5c8796eb473002109d76edf1d16d4309</application>
+        <file_path/>
+        <instance_id>01d622971ba27554c84543f4bd4bcb95</instance_id>
+        <instance_name>dev220627</instance_name>
+        <name>sp_row_65ea85ca47d102109d76edf1d16d438a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row"><sp_row action="INSERT_OR_UPDATE"><class_name/><order>3</order><sp_column/><sp_container display_value="Class Room - Container 3">227571b5470102109d76edf1d16d4305</sp_container><sys_class_name>sp_row</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-02 18:21:15</sys_created_on><sys_id>65ea85ca47d102109d76edf1d16d438a</sys_id><sys_mod_count>1</sys_mod_count><sys_name>3</sys_name><sys_package display_value="Class Attendance Mointoring " source="x_568580_class_a_0">5c8796eb473002109d76edf1d16d4309</sys_package><sys_policy/><sys_scope display_value="Class Attendance Mointoring ">5c8796eb473002109d76edf1d16d4309</sys_scope><sys_update_name>sp_row_65ea85ca47d102109d76edf1d16d438a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-03 06:00:15</sys_updated_on></sp_row></record_update>]]></payload>
+        <payload_hash>-150685589</payload_hash>
+        <record_name>3</record_name>
+        <reverted_from/>
+        <source>4d64d969470502109d76edf1d16d43a4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-03 06:00:15</sys_created_on>
+        <sys_id>3cea6f0e471542109d76edf1d16d43b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ea28b31f20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-03 06:00:15</sys_updated_on>
+        <type>Row</type>
+        <update_guid>f0ea6f0e7715421059a38c576eb421b9</update_guid>
+        <update_guid_history>f0ea6f0e7715421059a38c576eb421b9:-150685589,a9ea85ca68d1021027fc489dae80b08b:35276205</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="3">46faeb0e471542109d76edf1d16d433e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-03 06:00:36</sys_created_on>
+        <sys_db_object display_value="" name="sp_row">sp_row</sys_db_object>
+        <sys_id>620352b22c0845a6aa64c38b746c6249</sys_id>
+        <sys_metadata>65ea85ca47d102109d76edf1d16d438a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>3</sys_name>
+        <sys_package display_value="Class Attendance Mointoring " source="x_568580_class_a_0">5c8796eb473002109d76edf1d16d4309</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Class Attendance Mointoring ">5c8796eb473002109d76edf1d16d4309</sys_scope>
+        <sys_scope_delete display_value="">74811e2f626f4b269af15b01c217e5b1</sys_scope_delete>
+        <sys_update_name>sp_row_65ea85ca47d102109d76edf1d16d438a</sys_update_name>
+        <sys_update_version display_value="sp_row_65ea85ca47d102109d76edf1d16d438a">3cea6f0e471542109d76edf1d16d43b9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-03 06:00:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="7e146be647d142109d76edf1d16d43ea" label="Custom PDF Template" max_length="40" name="x_568580_class_a_0_custom_pdf_template" type="collection">
+        <element display="true" label="Name" max_length="40" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="encode_utf8=false" label="TempHtml" max_length="65536" name="temphtml" type="translated_html"/>
+    </element>
+</database>

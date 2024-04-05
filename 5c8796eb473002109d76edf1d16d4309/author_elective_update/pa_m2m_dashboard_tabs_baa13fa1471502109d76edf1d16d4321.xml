@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_m2m_dashboard_tabs">
+    <pa_m2m_dashboard_tabs action="DELETE">
+        <dashboard display_value="Class Schedule">add8c1e547c102109d76edf1d16d43d7</dashboard>
+        <home>false</home>
+        <homepage/>
+        <order>2</order>
+        <sys_class_name>pa_m2m_dashboard_tabs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-01 17:12:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>baa13fa1471502109d76edf1d16d4321</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>add8c1e547c102109d76edf1d16d43d7</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Class Attendance Mointoring " source="x_568580_class_a_0">5c8796eb473002109d76edf1d16d4309</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Class Attendance Mointoring ">5c8796eb473002109d76edf1d16d4309</sys_scope>
+        <sys_update_name>pa_m2m_dashboard_tabs_baa13fa1471502109d76edf1d16d4321</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-01 17:12:55</sys_updated_on>
+        <tab display_value="Class Schedule - New Tab 2">faa13fa1471502109d76edf1d16d431e</tab>
+    </pa_m2m_dashboard_tabs>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Class Attendance Mointoring ">5c8796eb473002109d76edf1d16d4309</application>
+        <file_path/>
+        <instance_id>01d622971ba27554c84543f4bd4bcb95</instance_id>
+        <instance_name>dev220627</instance_name>
+        <name>pa_m2m_dashboard_tabs_baa13fa1471502109d76edf1d16d4321</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_m2m_dashboard_tabs"><pa_m2m_dashboard_tabs action="INSERT_OR_UPDATE"><dashboard display_value="Class Schedule">add8c1e547c102109d76edf1d16d43d7</dashboard><home>false</home><homepage/><order>2</order><sys_class_name>pa_m2m_dashboard_tabs</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-01 17:12:55</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>baa13fa1471502109d76edf1d16d4321</sys_id><sys_mod_count>0</sys_mod_count><sys_name>add8c1e547c102109d76edf1d16d43d7</sys_name><sys_overrides/><sys_package display_value="Class Attendance Mointoring " source="x_568580_class_a_0">5c8796eb473002109d76edf1d16d4309</sys_package><sys_policy/><sys_scope display_value="Class Attendance Mointoring ">5c8796eb473002109d76edf1d16d4309</sys_scope><sys_update_name>pa_m2m_dashboard_tabs_baa13fa1471502109d76edf1d16d4321</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-01 17:12:55</sys_updated_on><tab display_value="Class Schedule - New Tab 2">faa13fa1471502109d76edf1d16d431e</tab></pa_m2m_dashboard_tabs></record_update>]]></payload>
+        <payload_hash>2059545891</payload_hash>
+        <record_name>add8c1e547c102109d76edf1d16d43d7</record_name>
+        <reverted_from/>
+        <source>4d64d969470502109d76edf1d16d43a4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-01 17:12:55</sys_created_on>
+        <sys_id>b2a13fa1471502109d76edf1d16d4324</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e9aa653450000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-01 17:12:55</sys_updated_on>
+        <type>Dashboard Tab</type>
+        <update_guid>f6a13fa16e150210de900488b5801523</update_guid>
+        <update_guid_history>f6a13fa16e150210de900488b5801523:2059545891</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Class Schedule">e3b1bfa1471502109d76edf1d16d4350</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-01 17:13:15</sys_created_on>
+        <sys_db_object display_value="" name="pa_m2m_dashboard_tabs">pa_m2m_dashboard_tabs</sys_db_object>
+        <sys_id>131a0aa75f7e4882a99d79a73d815dc9</sys_id>
+        <sys_metadata>baa13fa1471502109d76edf1d16d4321</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>add8c1e547c102109d76edf1d16d43d7</sys_name>
+        <sys_package display_value="Class Attendance Mointoring " source="x_568580_class_a_0">5c8796eb473002109d76edf1d16d4309</sys_package>
+        <sys_parent display_value="Class Schedule">add8c1e547c102109d76edf1d16d43d7</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Class Attendance Mointoring ">5c8796eb473002109d76edf1d16d4309</sys_scope>
+        <sys_scope_delete display_value="">74811e2f626f4b269af15b01c217e5b1</sys_scope_delete>
+        <sys_update_name>pa_m2m_dashboard_tabs_baa13fa1471502109d76edf1d16d4321</sys_update_name>
+        <sys_update_version display_value="pa_m2m_dashboard_tabs_baa13fa1471502109d76edf1d16d4321">b2a13fa1471502109d76edf1d16d4324</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-01 17:13:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

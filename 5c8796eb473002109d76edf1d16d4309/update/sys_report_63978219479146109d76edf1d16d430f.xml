@@ -26,7 +26,7 @@
         <chart_title_x_position>0</chart_title_x_position>
         <chart_title_y_position>0</chart_title_y_position>
         <chart_width>600</chart_width>
-        <color/>
+        <color display_value="Default Color">de699435d7033100b4964ebfae610331</color>
         <color_palette display_value="Default UI14">aa558ab3d7732100fa6c0c12ce610377</color_palette>
         <colors/>
         <column>class_batch</column>
@@ -47,8 +47,8 @@
         <exp_report_attrs>false</exp_report_attrs>
         <field>scheduled_date</field>
         <field_list>title,session,no_of_present,no_of_absent</field_list>
-        <filter table="x_568580_class_a_0_scheduled_classes">scheduled_dateON2024-04-01@javascript:gs.dateGenerate('2024-04-01','start')@javascript:gs.dateGenerate('2024-04-01','end')^stateINscheduled,closed<item endquery="false" field="scheduled_date" goto="false" newquery="false" operator="ON" or="false" value="2024-04-01@javascript:gs.dateGenerate('2024-04-01','start')@javascript:gs.dateGenerate('2024-04-01','end')"/>
-            <item display_value="scheduled,closed" endquery="false" field="state" goto="false" newquery="false" operator="IN" or="false" value="scheduled,closed"/>
+        <filter table="x_568580_class_a_0_scheduled_classes">stateINscheduled,closed^scheduled_dateONToday@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()<item display_value="scheduled,closed" endquery="false" field="state" goto="false" newquery="false" operator="IN" or="false" value="scheduled,closed"/>
+            <item endquery="false" field="scheduled_date" goto="false" newquery="false" operator="ON" or="false" value="Today@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()"/>
         </filter>
         <formatting_configuration>{"table":"incident","stringFormattingProperties":{},"durationFormattingProperties":{},"dateFormattingProperties":{},"numberFormattingProperties":{}}</formatting_configuration>
         <from/>
@@ -59,7 +59,7 @@
         <interval>year</interval>
         <is_published>false</is_published>
         <is_real_time>false</is_real_time>
-        <is_scheduled>false</is_scheduled>
+        <is_scheduled>true</is_scheduled>
         <legend_align_columns>true</legend_align_columns>
         <legend_background_color display_value="White">65b303c7a9fe3dba00629aff95ee3597</legend_background_color>
         <legend_border_color display_value="LightGrey">65b30308a9fe3dba01ebaa03e87e7cd3</legend_border_color>
@@ -108,16 +108,16 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-31 14:51:05</sys_created_on>
         <sys_id>63978219479146109d76edf1d16d430f</sys_id>
-        <sys_mod_count>16</sys_mod_count>
-        <sys_name>Daily Report</sys_name>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>Class Daily Report</sys_name>
         <sys_package display_value="Class Attendance Mointoring " source="x_568580_class_a_0">5c8796eb473002109d76edf1d16d4309</sys_package>
         <sys_policy/>
         <sys_scope display_value="Class Attendance Mointoring ">5c8796eb473002109d76edf1d16d4309</sys_scope>
         <sys_update_name>sys_report_63978219479146109d76edf1d16d430f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-31 16:32:17</sys_updated_on>
+        <sys_updated_on>2024-04-04 16:18:31</sys_updated_on>
         <table>x_568580_class_a_0_scheduled_classes</table>
-        <title>Daily Report</title>
+        <title>Class Daily Report</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
         <title_vertical_alignment>top</title_vertical_alignment>
         <to/>
@@ -126,14 +126,14 @@
         <upper_limit/>
         <use_color_heatmap>false</use_color_heatmap>
         <use_null_in_trend>false</use_null_in_trend>
-        <user>6816f79cc0a8016401c5a33be04be441</user>
+        <user>group</user>
         <x_axis_allow_decimals>true</x_axis_allow_decimals>
         <x_axis_display_grid>false</x_axis_display_grid>
         <x_axis_grid_color display_value="LightGrey">65b30308a9fe3dba01ebaa03e87e7cd3</x_axis_grid_color>
         <x_axis_grid_dotted>false</x_axis_grid_dotted>
         <x_axis_grid_width>1</x_axis_grid_width>
         <x_axis_label_bold>false</x_axis_label_bold>
-        <x_axis_label_color display_value="Black">65b30218a9fe3dba0120df8611520d97</x_axis_label_color>
+        <x_axis_label_color/>
         <x_axis_label_size>11</x_axis_label_size>
         <x_axis_label_tilt>0</x_axis_label_tilt>
         <x_axis_opposite>false</x_axis_opposite>
@@ -148,7 +148,7 @@
         <y_axis_grid_dotted>false</y_axis_grid_dotted>
         <y_axis_grid_width>1</y_axis_grid_width>
         <y_axis_label_bold>false</y_axis_label_bold>
-        <y_axis_label_color display_value="Black">65b30218a9fe3dba0120df8611520d97</y_axis_label_color>
+        <y_axis_label_color/>
         <y_axis_label_size>11</y_axis_label_size>
         <y_axis_label_tilt>0</y_axis_label_tilt>
         <y_axis_opposite>false</y_axis_opposite>

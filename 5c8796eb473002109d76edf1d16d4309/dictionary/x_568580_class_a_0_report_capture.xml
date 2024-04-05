@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="72f4676a47d142109d76edf1d16d43d8" label="Report Capture" max_length="40" name="x_568580_class_a_0_report_capture" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="State" max_length="40" name="state" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Sent" sequence="200" value="Sent"/>
+            </choice>
+        </element>
+        <element label="Student" max_length="32" name="student" reference="sys_user" type="reference"/>
+        <element label="Subject" max_length="500" name="subject" type="string"/>
+        <element label="Teacher" max_length="32" name="teacher" reference="sys_user" type="reference"/>
+        <element label="Template" max_length="32" name="template" reference="x_568580_class_a_0_custom_pdf_template" type="reference"/>
+        <index name="index">
+            <element name="student"/>
+        </index>
+        <index name="index2">
+            <element name="teacher"/>
+        </index>
+        <index name="index3">
+            <element name="template"/>
+        </index>
+    </element>
+</database>

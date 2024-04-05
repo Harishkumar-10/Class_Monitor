@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph>briefcase</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description>Browse to schedule classes and Raise leave request</short_description>
+        <size>md</size>
+        <sp_column display_value="1">948b0a7547c102109d76edf1d16d4316</sp_column>
+        <sp_page display_value="sc_category">07261a2147132100ba13a5554ee49092</sp_page>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 16:33:06</sys_created_on>
+        <sys_id>6e7571b5470102109d76edf1d16d430b</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Class Management</sys_name>
+        <sys_package display_value="Class Attendance Mointoring " source="x_568580_class_a_0">5c8796eb473002109d76edf1d16d4309</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Class Attendance Mointoring ">5c8796eb473002109d76edf1d16d4309</sys_scope>
+        <sys_update_name>sp_instance_link_6e7571b5470102109d76edf1d16d430b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-31 03:53:06</sys_updated_on>
+        <title>Class Management</title>
+        <type>page</type>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"template": {
+		"value": "Color Box",
+		"displayValue": "Color Box"
+	},
+	"link_template": {
+		"value": "Circle Icon",
+		"displayValue": "Circle Icon"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="DELETE" query="documentkey=6e7571b5470102109d76edf1d16d430b"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Class Attendance Mointoring ">5c8796eb473002109d76edf1d16d4309</application>
+        <file_path/>
+        <instance_id>01d622971ba27554c84543f4bd4bcb95</instance_id>
+        <instance_name>dev220627</instance_name>
+        <name>sp_instance_link_6e7571b5470102109d76edf1d16d430b</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_link"&gt;&lt;sp_instance_link action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph&gt;briefcase&lt;/glyph&gt;&lt;id/&gt;&lt;kb_article/&gt;&lt;kb_category/&gt;&lt;kb_topic/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;sc_cat_item/&gt;&lt;sc_category/&gt;&lt;short_description&gt;Browse to schedule classes and Raise leave request&lt;/short_description&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;948b0a7547c102109d76edf1d16d4316&lt;/sp_column&gt;&lt;sp_page display_value="sc_category"&gt;07261a2147132100ba13a5554ee49092&lt;/sp_page&gt;&lt;sp_widget display_value="Icon Link"&gt;3caa67afcb13020000f8d856634c9c2e&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-20 16:33:06&lt;/sys_created_on&gt;&lt;sys_id&gt;6e7571b5470102109d76edf1d16d430b&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;Class Management&lt;/sys_name&gt;&lt;sys_package display_value="Class Attendance Mointoring " source="x_568580_class_a_0"&gt;5c8796eb473002109d76edf1d16d4309&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Class Attendance Mointoring "&gt;5c8796eb473002109d76edf1d16d4309&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_link_6e7571b5470102109d76edf1d16d430b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-03-31 03:53:06&lt;/sys_updated_on&gt;&lt;title&gt;Class Management&lt;/title&gt;&lt;type&gt;page&lt;/type&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"template": {
+		"value": "Color Box",
+		"displayValue": "Color Box"
+	},
+	"link_template": {
+		"value": "Circle Icon",
+		"displayValue": "Circle Icon"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_link&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=6e7571b5470102109d76edf1d16d430b"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-549327659</payload_hash>
+        <record_name>Class Management</record_name>
+        <reverted_from/>
+        <source>4d64d969470502109d76edf1d16d43a4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-31 03:53:06</sys_created_on>
+        <sys_id>c9013b8147ddc2109d76edf1d16d43ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e92a3b6ab0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-31 03:53:06</sys_updated_on>
+        <type>Instance with Link</type>
+        <update_guid>81013b813eddc210a95d10c8d2fe48ea</update_guid>
+        <update_guid_history>81013b813eddc210a95d10c8d2fe48ea:-549327659,1cb0bf410bddc2100236a35d030779e9:665086335,1c8bceb524c102101cb013aeac25d5c3:116421855,3f7bceb536c102108207c36a50feea2f:1202692738,aa7571b570010210cf360d2b4d857f0d:-1173284701</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Class Management">10aac5ca47d102109d76edf1d16d4338</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-02 18:20:05</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_link">sp_instance_link</sys_db_object>
+        <sys_id>184f63315f9d4c00906f0400ec900000</sys_id>
+        <sys_metadata>6e7571b5470102109d76edf1d16d430b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Class Management</sys_name>
+        <sys_package display_value="Class Attendance Mointoring " source="x_568580_class_a_0">5c8796eb473002109d76edf1d16d4309</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Class Attendance Mointoring ">5c8796eb473002109d76edf1d16d4309</sys_scope>
+        <sys_scope_delete display_value="">74811e2f626f4b269af15b01c217e5b1</sys_scope_delete>
+        <sys_update_name>sp_instance_link_6e7571b5470102109d76edf1d16d430b</sys_update_name>
+        <sys_update_version display_value="sp_instance_link_6e7571b5470102109d76edf1d16d430b">c9013b8147ddc2109d76edf1d16d43ea</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-02 18:20:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rectangle_menu_item">
+    <sp_rectangle_menu_item action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <color>default</color>
+        <condition>gs.isLoggedIn() &amp;&amp; (gs.getUser().hasRole('x_568580_class_a_0.student') )</condition>
+        <display_1/>
+        <display_2/>
+        <display_date/>
+        <filter/>
+        <glyph>user</glyph>
+        <hint/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <label>Student Dashboard</label>
+        <order>200</order>
+        <record_script/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description/>
+        <sp_page/>
+        <sp_rectangle_menu display_value="Class Header ">d2b199e5470502109d76edf1d16d4373</sp_rectangle_menu>
+        <sp_rectangle_menu_item/>
+        <sys_class_name>sp_rectangle_menu_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-04 16:59:15</sys_created_on>
+        <sys_id>e2bac3aa471142109d76edf1d16d4370</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Student Dashboard</sys_name>
+        <sys_package display_value="Class Attendance Mointoring " source="x_568580_class_a_0">5c8796eb473002109d76edf1d16d4309</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Class Attendance Mointoring ">5c8796eb473002109d76edf1d16d4309</sys_scope>
+        <sys_update_name>sp_rectangle_menu_item_e2bac3aa471142109d76edf1d16d4370</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-04 17:02:58</sys_updated_on>
+        <table/>
+        <type>url</type>
+        <url>https://dev220627.service-now.com/$pa_dashboard.do?sysparm_dashboard=bac133e1471502109d76edf1d16d4355&amp;sysparm_tab=1be13ba1471502109d76edf1d16d432b&amp;sysparm_cancelable=true&amp;sysparm_editable=false&amp;sysparm_active_panel=false</url>
+        <url_target/>
+    </sp_rectangle_menu_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=e2bac3aa471142109d76edf1d16d4370"/>
+</record_update>

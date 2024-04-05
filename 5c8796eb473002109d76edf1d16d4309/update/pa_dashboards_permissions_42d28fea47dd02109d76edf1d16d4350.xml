@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="pa_dashboards_permissions">
+    <pa_dashboards_permissions action="INSERT_OR_UPDATE">
+        <dashboard display_value="Student Report">bac133e1471502109d76edf1d16d4355</dashboard>
+        <delete>false</delete>
+        <group/>
+        <identity>x_568580_class_a_0.student</identity>
+        <read>true</read>
+        <role display_value="x_568580_class_a_0.student" name="x_568580_class_a_0.student">a08796eb473002109d76edf1d16d432a</role>
+        <sys_class_name>pa_dashboards_permissions</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-04 16:22:16</sys_created_on>
+        <sys_id>42d28fea47dd02109d76edf1d16d4350</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_568580_class_a_0.student</sys_name>
+        <sys_package display_value="Class Attendance Mointoring " source="x_568580_class_a_0">5c8796eb473002109d76edf1d16d4309</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Class Attendance Mointoring ">5c8796eb473002109d76edf1d16d4309</sys_scope>
+        <sys_update_name>pa_dashboards_permissions_42d28fea47dd02109d76edf1d16d4350</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-04 16:22:16</sys_updated_on>
+        <type>1</type>
+        <user/>
+        <write>false</write>
+    </pa_dashboards_permissions>
+</record_update>

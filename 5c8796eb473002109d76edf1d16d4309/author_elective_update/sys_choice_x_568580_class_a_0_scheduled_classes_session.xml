@@ -58,7 +58,7 @@
             <element>session</element>
             <hint/>
             <inactive>false</inactive>
-            <label>2 AM to 4 PM</label>
+            <label>2 PM to 4 PM</label>
             <language>en</language>
             <name>x_568580_class_a_0_scheduled_classes</name>
             <sequence>2</sequence>
@@ -67,9 +67,9 @@
             <sys_created_on>2024-03-16 20:06:04</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-16 20:06:04</sys_updated_on>
+            <sys_updated_on>2024-04-01 16:56:10</sys_updated_on>
             <value>3</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">

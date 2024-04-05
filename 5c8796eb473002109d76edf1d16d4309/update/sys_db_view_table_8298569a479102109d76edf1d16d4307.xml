@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view_table">
+    <sys_db_view_table action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <left_join>false</left_join>
+        <order>100</order>
+        <sys_class_name>sys_db_view_table</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-03 18:41:10</sys_created_on>
+        <sys_id>8298569a479102109d76edf1d16d4307</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_568580_class_a_0_scheduled_classes</sys_name>
+        <sys_package display_value="Class Attendance Mointoring " source="x_568580_class_a_0">5c8796eb473002109d76edf1d16d4309</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Class Attendance Mointoring ">5c8796eb473002109d76edf1d16d4309</sys_scope>
+        <sys_update_name>sys_db_view_table_8298569a479102109d76edf1d16d4307</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-03 18:41:10</sys_updated_on>
+        <table>x_568580_class_a_0_scheduled_classes</table>
+        <variable_prefix>CAtt</variable_prefix>
+        <view display_value="x_568580_class_a_0_classattendance">1c78129a479102109d76edf1d16d4378</view>
+        <where_clause/>
+    </sys_db_view_table>
+</record_update>
