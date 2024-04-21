@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {  /* widget controller */  var c = this;};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>#custom-list-widget {
+  margin: 20px;
+}
+
+#record-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.record-item {
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.record-item:hover {
+  background-color: #f0f0f0;
+}
+
+.comment-input {
+  width: 100%;
+  margin-top: 5px;
+}
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>classfeedback</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>ClassFeedback</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[function updateComment(sysId) {
+  var comment = document.getElementById('comment-' + sysId).value;
+  if (comment.trim() === '') {
+    alert('Please enter a comment.');
+    return;
+  }
+  
+  var xhr = new XMLHttpRequest();
+  xhr.open('POST', '/api/now/table/x_568580_class_a_0_attendance_table/' + sysId, true);
+  xhr.setRequestHeader('Content-Type', 'application/json');
+  xhr.setRequestHeader('Accept', 'application/json');
+  xhr.onreadystatechange = function () {
+    if (xhr.readyState === XMLHttpRequest.DONE) {
+      if (xhr.status === 200 || xhr.status === 201) {
+        alert('Comment updated successfully.');
+      } else {
+        alert('Failed to update comment.');
+      }
+    }
+  };
+  
+  var requestBody = {
+    comments: comment
+  };
+  
+  xhr.send(JSON.stringify(requestBody));
+}
+
+function loadRecords() {
+  var xhr = new XMLHttpRequest();
+  xhr.open('GET', '/api/now/table/x_568580_class_a_0_attendance_table?sysparm_query=YOUR_QUERY_HERE', true);
+  xhr.setRequestHeader('Accept', 'application/json');
+  xhr.onreadystatechange = function () {
+    if (xhr.readyState === XMLHttpRequest.DONE) {
+      if (xhr.status === 200) {
+        var response = JSON.parse(xhr.responseText);
+        var records = response.result;
+        var list = document.getElementById('record-list');
+        list.innerHTML = '';
+        records.forEach(function(record) {
+          var item = document.createElement('li');
+          item.classList.add('record-item');
+          item.innerHTML = '<strong>' + record.display_value + '</strong><br>' +
+                           '<textarea id="comment-' + record.sys_id + '" class="comment-input" placeholder="Enter your comment"></textarea><br>' +
+                           '<button onclick="updateComment(\'' + record.sys_id + '\')">Update Comment</button>';
+          list.appendChild(item);
+        });
+      } else {
+        console.error('Failed to fetch records.');
+      }
+    }
+  };
+  xhr.send();
+}
+
+loadRecords();
+]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-17 10:09:26</sys_created_on>
+        <sys_id>2f2a24be47e102109d76edf1d16d4333</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>ClassFeedback</sys_name>
+        <sys_package display_value="Class Attendance Mointoring " source="x_568580_class_a_0">5c8796eb473002109d76edf1d16d4309</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Class Attendance Mointoring ">5c8796eb473002109d76edf1d16d4309</sys_scope>
+        <sys_update_name>sp_widget_2f2a24be47e102109d76edf1d16d4333</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-17 17:20:09</sys_updated_on>
+        <template><![CDATA[<div id="custom-list-widget">
+  <ul id="record-list"></ul>
+</div>
+]]></template>
+    </sp_widget>
+</record_update>

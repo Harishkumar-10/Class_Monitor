@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="9c550ea8478902109d76edf1d16d431f" label="Attendance table" max_length="40" name="x_568580_class_a_0_attendance_table" type="collection">
         <element label="Class Scheduled" max_length="32" name="class_scheduled" reference="x_568580_class_a_0_scheduled_classes" type="reference"/>
+        <element label="Feedback" max_length="1000" name="feedback" type="string"/>
         <element label="Leave Request" max_length="32" name="leave_request" reference="sc_req_item" type="reference"/>
         <element choice="1" label="Status" max_length="40" name="status" type="choice">
             <choice>

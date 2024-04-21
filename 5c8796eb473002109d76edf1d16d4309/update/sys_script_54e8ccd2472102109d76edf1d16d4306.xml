@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_568580_class_a_0_report_capture</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_568580_class_a_0_report_capture">template=22f30bb0476102109d76edf1d16d43b9^subjectISNOTEMPTY^EQ<item display_table="x_568580_class_a_0_custom_pdf_template" display_value="weeklySubjectBased" endquery="false" field="template" goto="false" newquery="false" operator="=" or="false" value="22f30bb0476102109d76edf1d16d43b9"/>
+            <item endquery="false" field="subject" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>weekSubjectReport2</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+var v = new sn_pdfgeneratorutils.PDFGenerationAPI;
+var temp=current.template.temphtml;
+var tableName='x_568580_class_a_0_report_capture';
+var tableSysId=current.sys_id;
+var fileName= current.subject+"weeklyRPT";
+var schCount=0;
+var tp=0;
+var ta=0;
+var sIn="";
+var gd = new GlideDate();
+
+
+var sch=new GlideRecord('x_568580_class_a_0_scheduled_classes');
+sch.addQuery('subject',current.subject);
+sch.query();
+sch.orderBy('scheduled_date');
+while(sch.next()){
+	sIn=sch.getDisplayValue('subject_teacher');
+	schCount++;
+}
+var attUtil=new x_568580_class_a_0.AttendanceReporter();
+var inhtl=attUtil.attAbsent(current.subject,'uninformed_leave');
+
+tp=parseInt(attUtil.attCounter(current.subject,'present'));
+ta=parseInt(attUtil.attCounter(current.subject,'absent'));
+
+
+
+var html=temp.replace('TBH',current.subject+'-Weekly Report');
+html=html.replace('date',current.getDisplayValue('sys_created_on'));
+html=html.replace('subj',current.subject);
+html=html.replace('subjTeacher',sIn);
+html=html.replace('bt','MCASet 31');
+html=html.replace('prd',current.from +"-"+gd.getValue());
+html=html.replace('Tbd',inhtl);
+html=html.replace('cno',schCount);
+html=html.replace('pno',tp);
+html=html.replace('ano',ta);
+
+var result = v.convertToPDF(html,tableName,tableSysId,fileName);
+
+
+current.setValue('state','Sent');
+current.update();
+gs.info(JSON.stringify(result));
+
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-15 18:26:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>54e8ccd2472102109d76edf1d16d4306</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>weekSubjectReport2</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Class Attendance Mointoring " source="x_568580_class_a_0">5c8796eb473002109d76edf1d16d4309</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Class Attendance Mointoring ">5c8796eb473002109d76edf1d16d4309</sys_scope>
+        <sys_update_name>sys_script_54e8ccd2472102109d76edf1d16d4306</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-15 18:55:46</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=54e8ccd2472102109d76edf1d16d4306"/>
+</record_update>

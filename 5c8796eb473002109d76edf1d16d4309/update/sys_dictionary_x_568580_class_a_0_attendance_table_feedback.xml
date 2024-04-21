@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="" table="x_568580_class_a_0_scheduled_classes">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="feedback" table="x_568580_class_a_0_attendance_table">
         <active>true</active>
         <array>false</array>
         <attributes/>
-        <audit>true</audit>
+        <audit>false</audit>
         <calculation/>
         <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label/>
+        <column_label>Feedback</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -21,16 +21,16 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element/>
+        <element>feedback</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Collection">collection</internal_type>
+        <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
-        <max_length>40</max_length>
-        <name>x_568580_class_a_0_scheduled_classes</name>
+        <max_length>1000</max_length>
+        <name>x_568580_class_a_0_attendance_table</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
@@ -46,14 +46,14 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-03-16 19:56:23</sys_created_on>
-        <sys_name>x_568580_class_a_0_scheduled_classes</sys_name>
+        <sys_created_on>2024-04-17 09:06:33</sys_created_on>
+        <sys_name>Feedback</sys_name>
         <sys_package display_value="Class Attendance Mointoring " source="x_568580_class_a_0">5c8796eb473002109d76edf1d16d4309</sys_package>
         <sys_policy/>
         <sys_scope display_value="Class Attendance Mointoring ">5c8796eb473002109d76edf1d16d4309</sys_scope>
-        <sys_update_name>sys_dictionary_x_568580_class_a_0_scheduled_classes_null</sys_update_name>
+        <sys_update_name>sys_dictionary_x_568580_class_a_0_attendance_table_feedback</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-20 06:32:46</sys_updated_on>
+        <sys_updated_on>2024-04-17 09:06:33</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

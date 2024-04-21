@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="" table="x_568580_class_a_0_scheduled_classes">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="stu_feedback" table="x_568580_class_a_0_scheduled_classes">
         <active>true</active>
         <array>false</array>
-        <attributes/>
-        <audit>true</audit>
+        <attributes>edge_encryption_enabled=true</attributes>
+        <audit>false</audit>
         <calculation/>
-        <choice>0</choice>
+        <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label/>
+        <column_label>Student Feedback</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
         <defaultsort/>
         <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
+        <dependent>feedback</dependent>
+        <dependent_on_field>feedback</dependent_on_field>
         <display>false</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element/>
+        <element>stu_feedback</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Collection">collection</internal_type>
+        <internal_type display_value="">journal_list</internal_type>
         <mandatory>false</mandatory>
-        <max_length>40</max_length>
+        <max_length>4000</max_length>
         <name>x_568580_class_a_0_scheduled_classes</name>
         <next_element/>
         <primary>false</primary>
@@ -46,18 +46,18 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-03-16 19:56:23</sys_created_on>
-        <sys_name>x_568580_class_a_0_scheduled_classes</sys_name>
+        <sys_created_on>2024-04-20 06:32:46</sys_created_on>
+        <sys_name>Student Feedback</sys_name>
         <sys_package display_value="Class Attendance Mointoring " source="x_568580_class_a_0">5c8796eb473002109d76edf1d16d4309</sys_package>
         <sys_policy/>
         <sys_scope display_value="Class Attendance Mointoring ">5c8796eb473002109d76edf1d16d4309</sys_scope>
-        <sys_update_name>sys_dictionary_x_568580_class_a_0_scheduled_classes_null</sys_update_name>
+        <sys_update_name>sys_dictionary_x_568580_class_a_0_scheduled_classes_stu_feedback</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-20 06:32:46</sys_updated_on>
+        <sys_updated_on>2024-04-20 06:36:33</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
+        <use_dependent_field>true</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>

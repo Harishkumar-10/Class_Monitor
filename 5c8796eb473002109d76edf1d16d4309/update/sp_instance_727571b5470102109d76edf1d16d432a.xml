@@ -6,7 +6,7 @@
         <css/>
         <glyph>empty</glyph>
         <id/>
-        <order>2</order>
+        <order>1</order>
         <roles/>
         <short_description/>
         <size>md</size>
@@ -16,14 +16,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-20 16:33:07</sys_created_on>
         <sys_id>727571b5470102109d76edf1d16d432a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Announcements</sys_name>
         <sys_package display_value="Class Attendance Mointoring " source="x_568580_class_a_0">5c8796eb473002109d76edf1d16d4309</sys_package>
         <sys_policy/>
         <sys_scope display_value="Class Attendance Mointoring ">5c8796eb473002109d76edf1d16d4309</sys_scope>
         <sys_update_name>sp_instance_727571b5470102109d76edf1d16d432a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-20 18:09:20</sys_updated_on>
+        <sys_updated_on>2024-04-21 06:43:41</sys_updated_on>
         <title>Announcements</title>
         <url/>
         <widget_parameters><![CDATA[{
