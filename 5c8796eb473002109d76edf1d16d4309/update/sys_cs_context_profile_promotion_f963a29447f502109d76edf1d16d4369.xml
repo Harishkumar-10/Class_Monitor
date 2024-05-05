@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_context_profile_promotion">
+    <sys_cs_context_profile_promotion action="INSERT_OR_UPDATE">
+        <context_profile display_value="Default chat experience">3a33973653211010a813ddeeff7b125a</context_profile>
+        <order>100</order>
+        <sys_class_name>sys_cs_context_profile_promotion</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-22 10:50:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>f963a29447f502109d76edf1d16d4369</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Class Attendance Mointoring " source="x_568580_class_a_0">5c8796eb473002109d76edf1d16d4309</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Class Attendance Mointoring ">5c8796eb473002109d76edf1d16d4309</sys_scope>
+        <sys_update_name>sys_cs_context_profile_promotion_f963a29447f502109d76edf1d16d4369</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-22 10:50:11</sys_updated_on>
+        <topic display_value="Check Ticket Status">feb22e1447f502109d76edf1d16d4362</topic>
+        <topic_description>ITSM conversation flow to check status of incidents and requested items.</topic_description>
+    </sys_cs_context_profile_promotion>
+</record_update>

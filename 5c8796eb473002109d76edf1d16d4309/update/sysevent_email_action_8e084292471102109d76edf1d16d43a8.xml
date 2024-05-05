@@ -38,11 +38,11 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>Dear Students,</p>
+        <message_html><![CDATA[<p>&nbsp;</p>
+<p>Dear Students,</p>
 <p>This mail is to inform you that Scheduled class on ${scheduled_date} at ${session}&nbsp; ${title} is Cancelled.</p>
 <p>&nbsp;</p>
-<p>Thanks &amp; Regards,</p>
-<p>Class Monitor</p>]]></message_html>
+<p>Thanks &amp; Regards,<br />Class Monitor</p>]]></message_html>
         <message_list/>
         <message_text/>
         <name>Notify Class Cancelled</name>
@@ -64,7 +64,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8e084292471102109d76edf1d16d43a8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Notify Class Cancelled</sys_name>
         <sys_overrides/>
         <sys_package display_value="Class Attendance Mointoring " source="x_568580_class_a_0">5c8796eb473002109d76edf1d16d4309</sys_package>
@@ -72,7 +72,7 @@
         <sys_scope display_value="Class Attendance Mointoring ">5c8796eb473002109d76edf1d16d4309</sys_scope>
         <sys_update_name>sysevent_email_action_8e084292471102109d76edf1d16d43a8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-03 17:33:15</sys_updated_on>
+        <sys_updated_on>2024-04-22 17:56:35</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>
