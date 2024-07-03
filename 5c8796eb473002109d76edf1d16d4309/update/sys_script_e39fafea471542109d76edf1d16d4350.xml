@@ -15,7 +15,7 @@
         <condition/>
         <description/>
         <execute_function>false</execute_function>
-        <filter_condition table="x_568580_class_a_0_report_capture">template=e94867ee47d142109d76edf1d16d4348^subjectISNOTEMPTY^EQ<item display_table="x_568580_class_a_0_custom_pdf_template" display_value="weeklySubjectBased" endquery="false" field="template" goto="false" newquery="false" operator="=" or="false" value="e94867ee47d142109d76edf1d16d4348"/>
+        <filter_condition table="x_568580_class_a_0_report_capture">template=e94867ee47d142109d76edf1d16d4348^subjectISNOTEMPTY^EQ<item display_table="x_568580_class_a_0_custom_pdf_template" display_value="TEST TEMP" endquery="false" field="template" goto="false" newquery="false" operator="=" or="false" value="e94867ee47d142109d76edf1d16d4348"/>
             <item endquery="false" field="subject" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter_condition>
